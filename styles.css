@@ -1,0 +1,40 @@
+.story-content > p {
+    background-color: #f6ff00;
+    color: #000080;
+    font-size: 1.2em;
+    padding: 10px;
+    border-left: 4px solid #ff0000;
+    margin-bottom: 15px;
+}
+
+blockquote em {
+    background-color: #fbff20;
+    color: #8b0000;
+    font-style: italic;
+    padding: 5px;
+    border-bottom: 2px dashed #8b0000;
+}
+
+h1 {
+    color:#8b0000
+}
+
+
+h2+h3 {
+    background-color: #e6e6fa;
+    color: #4b0082;
+    font-size: 1.5em;
+    padding: 10px;
+    border-top: 2px solid #4b0082;
+    border-bottom: 2px solid #4b0082;
+    margin-top: 10px;
+}
+
+p ~ ul {
+    background-color: #fafad2;
+    color: #556b2f;
+    font-size: 1em;
+    padding: 15px;
+    border: 2px solid #ffffff;
+    margin-top: 20px;
+}
